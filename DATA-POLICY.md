@@ -1,7 +1,7 @@
 # Establo Data Policy
 
 Establo is a WhatsApp-based training assistant for dairy operations, built by
-Irrigant. Its users are dairy workers — a workforce that is overwhelmingly
+Henry Turcotte. Its users are dairy workers — a workforce that is overwhelmingly
 foreign-born — and its core product is an employer-visible record of training
 activity. That combination imposes obligations this document spells out in
 plain English. Every commitment here corresponds to shipped, tested code; the
@@ -67,7 +67,7 @@ plain-Spanish disclosure of all of this on first contact.
 
 ## 4. Legal requests
 
-Irrigant does not voluntarily disclose worker data to any third party,
+Establo does not voluntarily disclose worker data to any third party,
 including government agencies. Our posture:
 
 - Data is produced only in response to valid, compulsory legal process (e.g.

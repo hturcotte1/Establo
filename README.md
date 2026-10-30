@@ -2,6 +2,11 @@
 
 **Spanish-first, WhatsApp-based training assistant for large dairy operations.**
 
+> **Research project (October 2026).** Establo started as a startup and is now
+> a research project by Henry Turcotte, also completed as his high school
+> senior service project. The code here is a complete, tested prototype, but
+> it was never piloted on a real farm.
+
 > **▶ Live demo (no install):** https://htbot34.github.io/Establo/ — the real
 > dashboard UI + WhatsApp simulator running entirely in your browser on sample
 > data (deployed from `main` by GitHub Actions). It's static, so answers there
@@ -21,6 +26,28 @@ replying ACEPTO.
 - **Workers:** WhatsApp only. No app, no login, no password. Simple Spanish.
 - **Managers:** a boring, fast web dashboard (`/app`) for SOPs, workers,
   onboarding tracks, conversations, escalations, and audit exports.
+
+## Start here (non-technical readers)
+
+- **The problem:** most U.S. dairy workers are Spanish-speaking immigrants,
+  turnover is high, and a farm's written procedures (SOPs) rarely reach the
+  people doing the work in a form they can use.
+- **The idea:** workers ask questions on WhatsApp, in Spanish, by text or
+  voice, and get answers drawn only from their own farm's procedures. Every
+  lesson and question becomes a training record a manager can show a FARM
+  Animal Care evaluator.
+- **See it:** the [live demo](https://htbot34.github.io/Establo/) runs the
+  real dashboard and a WhatsApp simulator on sample data, with nothing to
+  install. The project site is [establo.xyz](https://establo.xyz).
+- **What's here:** the full TypeScript source and 296 automated tests, plus
+  plain-English docs: [DATA-POLICY.md](DATA-POLICY.md) (how worker data is
+  protected), [POLICY-SCOPE.md](POLICY-SCOPE.md) (what the assistant will and
+  won't answer), and [DECISIONS.md](DECISIONS.md) (the design choices behind
+  it).
+- **What's not proven:** Establo has only run live through a WhatsApp test
+  sandbox. It has not been used by workers on a real farm.
+
+Everything below is technical documentation for running the system.
 
 ---
 
